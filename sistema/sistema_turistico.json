@@ -1,0 +1,163 @@
+{
+  "pontos": [
+    {
+      "designacao": "Algar do Carv\u00e3o",
+      "morada": "Porto Judeu",
+      "coordenadas": {
+        "x": 38.728288747046044,
+        "y": -27.215878974749756
+      },
+      "categoria": "natureza",
+      "acessibilidade": "Estacionamento, transportes p\u00fablicos",
+      "atividades": "Visitas a sistemas de grutas formadas por lava",
+      "avaliacao": [3, 4, 4, 3, 4],
+      "visitas": 5
+    },
+    {
+      "designacao": "Museu de Angra do Hero\u00edsmo",
+      "morada": "Ladeira de S\u00e3o Francisco",
+      "coordenadas": {
+        "x": 38.657254916112485,
+        "y": -27.21695069829973
+      },
+      "categoria": "cultura",
+      "acessibilidade": "Estacionamento, via pedonal, rampas",
+      "atividades": "Observa\u00e7\u00e3o de exposi\u00e7\u00f5es hist\u00f3ricas",
+      "avaliacao": [4, 3, 4, 4, 4, 4],
+      "visitas": 6
+    },
+    {
+      "designacao": "Jardim Duque da Terceira",
+      "morada": "Rua Direita 130",
+      "coordenadas": {
+        "x": 38.657798674827305,
+        "y": -27.21808453141898
+      },
+      "categoria": "natureza",
+      "acessibilidade": "Estacionamento, via pedonal, rampas",
+      "atividades": "Diversas atividades ao ar livre e caminhadas",
+      "avaliacao": [4, 4, 3, 3, 4],
+      "visitas": 5
+    },
+    {
+      "designacao": "Caf\u00e9 Alian\u00e7a",
+      "morada": "Pra\u00e7a Velha 10",
+      "coordenadas": {
+        "x": 38.655893163637614,
+        "y": -27.218472390096906
+      },
+      "categoria": "gastronomia",
+      "acessibilidade": "Estacionamento, via pedonal, rampas",
+      "atividades": "Degusta\u00e7\u00e3o de vinhos e pratos regionais, prato do dia",
+      "avaliacao": [4, 3, 1, 2, 3, 2, 4, 4],
+      "visitas": 8
+    },
+    {
+      "designacao": "Gruta do Natal",
+      "morada": "Altares",
+      "coordenadas": {
+        "x": 38.73756917729597,
+        "y": -27.26848981892876
+      },
+      "categoria": "natureza",
+      "acessibilidade": "Estacionamento, transportes p\u00fablicos",
+      "atividades": "Visitas a sistemas de grutas formadas por lava",
+      "avaliacao": [4, 4, 3, 3, 4, 4, 3],
+      "visitas": 7
+    }
+  ],
+  "rede": [
+    {
+      "inicio": "Museu de Angra do Hero\u00edsmo",
+      "fim": "Caf\u00e9 Alian\u00e7a",
+      "distancia": 0.28,
+      "velocidade_minima": 20.0,
+      "velocidade_maxima": 60.0
+    },
+    {
+      "inicio": "Jardim Duque da Terceira",
+      "fim": "Gruta do Natal",
+      "distancia": 12.0,
+      "velocidade_minima": 40.0,
+      "velocidade_maxima": 100.0
+    },
+    {
+      "inicio": "Gruta do Natal",
+      "fim": "Algar do Carv\u00e3o",
+      "distancia": 6.0,
+      "velocidade_minima": 30.0,
+      "velocidade_maxima": 70.0
+    },
+    {
+      "inicio": "Caf\u00e9 Alian\u00e7a",
+      "fim": "Algar do Carv\u00e3o",
+      "distancia": 12.6,
+      "velocidade_minima": 40.0,
+      "velocidade_maxima": 100.0
+    },
+    {
+      "inicio": "Museu de Angra do Hero\u00edsmo",
+      "fim": "Gruta do Natal",
+      "distancia": 12.5,
+      "velocidade_minima": 40.0,
+      "velocidade_maxima": 100.0
+    },
+    {
+      "inicio": "Museu de Angra do Hero\u00edsmo",
+      "fim": "Algar do Carv\u00e3o",
+      "distancia": 13.0,
+      "velocidade_minima": 40.0,
+      "velocidade_maxima": 100.0
+    },
+    {
+      "inicio": "Caf\u00e9 Alian\u00e7a",
+      "fim": "Jardim Duque da Terceira",
+      "distancia": 0.28,
+      "velocidade_minima": 20.0,
+      "velocidade_maxima": 60.0
+    },
+    {
+      "inicio": "Algar do Carv\u00e3o",
+      "fim": "Jardim Duque da Terceira",
+      "distancia": 12.5,
+      "velocidade_minima": 40.0,
+      "velocidade_maxima": 100.0
+    },
+    {
+      "inicio": "Gruta do Natal",
+      "fim": "Caf\u00e9 Alian\u00e7a",
+      "distancia": 12.5,
+      "velocidade_minima": 40.0,
+      "velocidade_maxima": 100.0
+    },
+    {
+      "inicio": "Jardim Duque da Terceira",
+      "fim": "Museu de Angra do Hero\u00edsmo",
+      "distancia": 0.28,
+      "velocidade_minima": 20.0,
+      "velocidade_maxima": 60.0
+    }
+  ],
+  "grafo": {
+    "Algar do Carv\u00e3o": {
+      "Jardim Duque da Terceira": 12.5
+    },
+    "Museu de Angra do Hero\u00edsmo": {
+      "Caf\u00e9 Alian\u00e7a": 0.28,
+      "Gruta do Natal": 12.5,
+      "Algar do Carv\u00e3o": 13.0
+    },
+    "Jardim Duque da Terceira": {
+      "Gruta do Natal": 12.0,
+      "Museu de Angra do Hero\u00edsmo": 0.28
+    },
+    "Caf\u00e9 Alian\u00e7a": {
+      "Algar do Carv\u00e3o": 12.6,
+      "Jardim Duque da Terceira": 0.28
+    },
+    "Gruta do Natal": {
+      "Algar do Carv\u00e3o": 6.0,
+      "Caf\u00e9 Alian\u00e7a": 12.5
+    }
+  }
+}
